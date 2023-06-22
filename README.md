@@ -19,3 +19,7 @@
 ##  Categories
         _id
         name
+
+
+##  Database Configuration
+        Created new dir 'Config'
