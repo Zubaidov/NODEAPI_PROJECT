@@ -1,8 +1,8 @@
-const httpStatusCodes = require('http-status-codes';)
+const httpStatusCodes = require('http-status-codes');
 const category = require('../models/category.model');
 
 class CategoryController {
-    getAll = (req, res) {
+    getAll = (req, res) => {
         category.find().then(docs => {
             return res.status(httpStatusCodes.OK).send(docs);
         }).catch(err => {
@@ -19,7 +19,7 @@ class CategoryController {
             return res.status(httpStatusCodes.INTERNAL_SERVER_ERROR).send({
                 message: 'Internal Server Error'
             });
-        })
+        });
     }
 }
 
