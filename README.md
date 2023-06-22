@@ -1,4 +1,6 @@
 # NODEAPI_PROJECT
+## Zubaidov Shohruz 19200188
+## Khalilov Kadir 19200186
 
 # Packeges Installed:
 
