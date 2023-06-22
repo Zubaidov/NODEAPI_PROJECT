@@ -23,3 +23,6 @@
 
 ##  Database Configuration
         Created new dir 'Config'
+
+##  Creating Controller
+##  Defining Routes
