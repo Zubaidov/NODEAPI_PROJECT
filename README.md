@@ -61,3 +61,6 @@
         [PUT] http://localhost:5000/api/category/update/*ID of a category*  //update category
         [DELETE] http://localhost:5000/api/product/delete/*ID of a product*  //delete category
         [PUT] http://localhost:5000/api/product/update/*ID of a product*  //update category
+
+## OUR POSTMAN DASHBOARD
+        <img src="POSTMAN.png">
