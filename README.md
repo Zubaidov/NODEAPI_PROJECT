@@ -66,3 +66,33 @@
 <p align="center">
 <img src="https://github.com/Zubaidov/NODEAPI_PROJECT/blob/main/POSTMAN.png?raw=true" width="1920" alt="accessibility text">
 </p>
+
+
+# Products in MongoDB for test:
+
+## Categories
+        [+] Fruits
+                - Apple
+                - Peach
+                - Orange
+                - Banana
+                - Watermelon
+                - Malon
+                - Pomegranate
+
+        [+] Vegetables
+                - Potato
+                - Tomato
+                - Carrot
+                - Mushroom
+                - Garlic
+                - Pumpkin
+        
+        [+] Drinks
+                - CocaCola
+                - Fanta
+                - Barjomi
+                - Nabeglavi
+                - Natakhtari
+                - Cappy Pulpy
+                - Cappy Cherry
