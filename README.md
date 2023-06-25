@@ -71,7 +71,7 @@
 # Products in MongoDB for test:
 
 ## Categories
-        [+] Fruits
+        [+] Fruits (64986bd7a08f4ce00903945f)
                 - Apple
                 - Peach
                 - Orange
