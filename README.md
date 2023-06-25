@@ -63,4 +63,6 @@
         [PUT] http://localhost:5000/api/product/update/*ID of a product*  //update category
 
 ## OUR POSTMAN DASHBOARD
-        <img src="POSTMAN.png">
+<p align="center">
+<img src="https://github.com/Zubaidov/NODEAPI_PROJECT/blob/main/POSTMAN.png?raw=true" width="650" alt="accessibility text">
+</p>
