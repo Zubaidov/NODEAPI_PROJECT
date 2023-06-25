@@ -31,3 +31,26 @@
 ##  Defining Routes
 ##  Postman Testing REST API
 ##  Repository Design Pattern
+##  GET category or product
+        http://localhost:5000/api/category/getall //getting all categories
+        http://localhost:5000/api/products/getall //getting all products
+
+        http://localhost:5000/api/category/getbyid/6495a631ff94cbbf118705bb     //getting category by ID
+        http://localhost:5000/api/products/getbyid/6495a631ff94cbbf118705bb     //getting product by ID
+
+## POST category or product
+        http://localhost:5000/api/category/add  //post category
+        
+        JSON
+        {
+                "name": "category name"
+        }
+
+        http://localhost:5000/api/product/add  //post product
+
+        JSON
+        {
+                "name": "namyanything",
+                "unitPrice": 45,
+                "categoryID": "the id of the category"
+        }
