@@ -8,7 +8,7 @@ class BaseRepository {
     findById(id) {
         return this.collection.findById(id);
     }
-    creat(model) {
+    create(model) {
         return this.collection.create(model);
     }
     update(model) {
