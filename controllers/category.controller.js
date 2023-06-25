@@ -5,7 +5,6 @@ class CategoryController extends BaseController {
     constructor() {
         super(CategoryRepository);
     }
-
 }
 
 module.exports = CategoryController;
