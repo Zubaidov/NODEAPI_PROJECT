@@ -64,5 +64,5 @@
 
 ## OUR POSTMAN DASHBOARD
 <p align="center">
-<img src="https://github.com/Zubaidov/NODEAPI_PROJECT/blob/main/POSTMAN.png?raw=true" width="1000" alt="accessibility text">
+<img src="https://github.com/Zubaidov/NODEAPI_PROJECT/blob/main/POSTMAN.png?raw=true" width="1920" alt="accessibility text">
 </p>
