@@ -54,3 +54,10 @@
                 "unitPrice": 45,
                 "categoryID": "the id of the category"
         }
+
+## DELETE & UPDATE of category or product
+        //JSON file should include the data to update
+        http://localhost:5000/api/category/delete/*ID of a category*  //post category
+        http://localhost:5000/api/category/update/*ID of a category*  //post category
+        http://localhost:5000/api/product/delete/*ID of a product*  //post category
+        http://localhost:5000/api/product/update/*ID of a product*  //post category
