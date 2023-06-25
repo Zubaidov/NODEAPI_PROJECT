@@ -1,9 +1,12 @@
 const httpStatusCodes = require('http-status-codes');
-const category = require('../models/category.model');
+const CategoryRepository = require('../repositories/category.repository');
 
 class CategoryController {
+    constructor() {
+        this.repo = new CategoryRepository();
+    }
     getAll = (req, res) => {
-        category.find().then(docs => {
+        this.repo.findAll().then(docs => {
             return res.status(httpStatusCodes.OK).send(docs);
         }).catch(err => {
             return res.status(httpStatusCodes.INTERNAL_SERVER_ERROR).send({
@@ -13,7 +16,7 @@ class CategoryController {
     }
     add = (req, res) => {
         const body = req.body;
-        category.create(body).then(doc => {
+        this.repo.create(body).then(doc => {
             return res.status(httpStatusCodes.CREATED).send(doc);
         }).catch(err => {
             return res.status(httpStatusCodes.INTERNAL_SERVER_ERROR).send({
