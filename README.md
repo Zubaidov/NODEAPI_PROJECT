@@ -1,7 +1,7 @@
 # NODEAPI_PROJECT
 ## Made By
         Zubaidov Shohruz 19200188
-        Khalilov Kadir 19200186
+        Khalilov Abdukodir 19200186
 
 # Packeges Installed:
 
